@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Custom Style -->
+      <link rel="stylesheet" href="../css/style.css">
+      <!-- Normalize -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" sizes="32x32" href="../img/elburro-favicon.png" />
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Limelight&family=Montserrat:wght@100&family=Raleway:wght@200&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@100&family=Raleway:wght@200&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+      <title>ELburro</title>
+   </head>
+   <body>
+      <!-- Navigation Section -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+         <a class="navbar-brand d-block d-lg-none" href="#"><img src="../img/logo.svg" alt="elburro-logo"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon "></span>
+         </button>
+         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+            <a class="navbar-brand d-block d-lg-none" href="#"><img src="../img/logo.svg" alt="elburro-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+               <ul class="navbar-nav mx-auto align-items-center text-uppercase py-2">
+                  <li class="nav-item px-2 ">
+                     <a class="nav-link " href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item px-2"> 
+                     <a class="nav-link " href="../pages/about-us.html">About Us</a>
+                  </li>
+                  <li class="nav-item px-2">
+                     <a class="nav-link active " href="../pages/menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item px-2">
+                     <img class="d-none d-lg-block" src="../img/logo.svg" alt="elburro-logo">
+                  </li>
+                  <li class="nav-item px-2 ">
+                     <a class="nav-link  " href="../pages/blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item px-2">
+                     <a class="nav-link " href="../pages/services.html">Services</a>
+                  </li>
+                  <li class="nav-item px-2">
+                     <a class="nav-link " href="../pages/contact.html">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </nav>
+       <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+      <!-- Navigation Section -->
+      <!-- Header Section -->
+      <header class="menu-masthead ">
+         <div class="container h-100">
+            <div class="row h-100 align-items-center">
+               <div class="col-12 text-center text-white">
+                  <h1 class="font-weight-bold  text-uppercase text-underline mx-auto">Explore our Menu</h1>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Header Section -->
+      <!-- Body -->
+      <div class="container section-container">
+         <div class="row">
+            <div class="col-12">
+               <h2 class="menu-tag mx-auto text-center py-5">“THE BEST PLACE FOR ANY MEXICAN FOOD LOVER TO RELAX AND
+UNWIND WHILE ENJOYING A GREAT FOOD.”</h2>
+               <ul class="nav nav-pills navbar-dark nav-justified pt-3" id="myTab" role="tablist">
+                  <li class="nav-item">
+                     <a class="nav-link active" id="burrito-tab" data-toggle="tab" href="#burrito" role="tab" aria-controls="burrito" aria-selected="true">BURRITO</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="tacos-tab" data-toggle="tab" href="#tacos" role="tab" aria-controls="tacos" aria-selected="false">TACOS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="quesadilla-tab" data-toggle="tab" href="#quesadilla" role="tab" aria-controls="quesadilla" aria-selected="false">QUESADILLAS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="burrito-bowls-tab" data-toggle="tab" href="#burrito-bowls" role="tab" aria-controls="burrito-bowls" aria-selected="false">BURRITO BOWLS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="nachos-tab" data-toggle="tab" href="#nachos" role="tab" aria-controls="nachos" aria-selected="false">NACHOS</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="drinks-tab" data-toggle="tab" href="#drinks" role="tab" aria-controls="drinks" aria-selected="false">DRINKS</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="burrito" role="tabpanel" aria-labelledby="burrito-tab">
+                     <div class="row">
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/chicken-burrito.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Roasted Chicken Burrito</h2>
+                                       <p class="card-text pb-3">Served in wheat tortilla with black beans, white rice-with lime and cilantro, roasted chicken, pico de gallo, chipotle cream, lettuce, cheese and one choice of salsa.</p>
+                                       <p class="pb-3">135.00</p>
+                                         <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                      
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/veggie-burrito.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold">Vegetarian Burrito</h2>
+                                       <p class="card-text">Served in wheat tortilla with black beans, white rice-with lime and cilantro, vegetarian mix, pico de gallo, chipotle cream, lettuce, cheese and one choice of salsa.</p>
+                                       <p>135.00</p>
+                                        <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/beef-burrito.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold">Pulled Beef Burrito</h2>
+                                       <p class="card-text">Served in wheat tortilla with black beans, white rice-with lime and cilantro, pulled beef, pico de gallo, chipotle cream, lettuce, cheese and one choice of salsa.</p>
+                                       <p>150.00</p>
+                                       <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--row-->
+                  </div>
+                  <!--tab-pane-->
+                  <!--end BURRITO-->
+                  <!--TACOS-->
+                  <div class="tab-pane fade" id="tacos" role="tabpanel" aria-labelledby="tacos-tab">
+                     <div class="row">
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/meat-tacos.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Taco Meat Tacos</h2>
+                                       <p class="card-text pb-3">3 tacos filled with taco meat and cheese. Served with pico de gallo, chipotle cream and one choice of salsa. </p>
+                                       <p class="pb-3">145.00</p>
+                                       <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/chicken-taco.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Roasted Chicken Tacos</h2>
+                                       <p class="card-text pb-3">3 tacos filled with roasted chicken and cheese, served with pico de gallo, chipotle cream and one choice of salsa.</p>
+                                       <p class="pb-3">130.00</p>
+                                       <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/veggie-tacos.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Vegetarian Tacos</h2>
+                                       <p class="card-text pb-3">3 tacos filled with vegetarian mix and cheese, served with pico de gallo, chipotle cream and one choice of salsa.</p>
+                                       <p class="pb-3">130.00</p>
+                                       <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/beef-taco.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Pulled Beef Tacos</h2>
+                                       <p class="card-text pb-3">3 tacos filled with pulled beef and cheese, served with pico de gallo, chipotle cream and one choice of salsa.</p>
+                                       <p class="pb-3">145.00</p>
+                                        <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--row-->
+                  </div>
+                  <!--tab-pane-->
+                  <!--end TACOS-->
+                  <!--QUESADILLAS-->
+                  <div class="tab-pane fade" id="quesadilla" role="tabpanel" aria-labelledby="quesadilla-tab">
+                     <div class="row">
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/chicken-quesadillas.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Roasted Chicken Quesadillas</h2>
+                                       <p class="card-text pb-3">Wheat tortilla filled with cheese and roasted chicken, served with pico de gallo, chipotle cream and one choice of salsa.</p>
+                                       <p class="pb-3">130.00</p>
+                                       <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/veggie-quesadillas.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Vegetarian Quesadillas</h2>
+                                       <p class="card-text pb-3">Wheat tortilla filled with cheese and vegetarian mix, served with pico de gallo, chipotle cream and one choice of salsa.</p>
+                                       <p class="pb-3">130.00</p>
+                                        <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/beef-quesadillas.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Beef Quesadillas</h2>
+                                       <p class="card-text pb-3">Wheat tortilla filled with cheese and pulled beef, served with pico de gallo, chipotle cream and one choice of salsa.</p>
+                                       <p class="pb-3">130.00</p>
+                                        <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--row-->
+                  </div>
+                  <!--tab-pane-->
+                  <!--end QUESADILLAS-->
+                  <!-- BURRITO BOWLS-->
+                  <div class="tab-pane fade" id="burrito-bowls" role="tabpanel" aria-labelledby="burrito-bowls-tab">
+                     <div class="row">
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/chicken-bowls.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Roasted Chicken Burrito Bowls</h2>
+                                       <p class="card-text pb-3">Served as a salad, with black beans, white rice-with lime and cilantro, roasted chicken, pico de gallo, chipotle cream, lettuce, cheese and one choice of salsa. </p>
+                                       <p class="pb-3">130.00</p>
+                                        <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/veggie-bowls.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center ">
+                                       <h2 class="card-title font-weight-bold pb-3">Veggie Burrito Bowls</h2>
+                                       <p class="card-text pb-3">Served as a salad, with black beans, white rice-with lime and cilantro,vegetarian mix, pico de gallo, chipotle cream, lettuce, cheese and one choice of salsa.</p>
+                                       <p class="pb-3">130.00</p>
+                                        <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/beef-bowls.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Beef Burrito Bowls</h2>
+                                       <p class="card-text pb-3">Served as a salad, with black beans, white rice-with lime and cilantro, pulled beef, pico de gallo, chipotle cream, lettuce, cheese and one choice of salsa. </p>
+                                       <p class="pb-3">130.00</p>
+                                       <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--row-->
+                  </div>
+                  <!--tab-pane-->
+                  <!--end BURRITO BOWLS-->
+                  <!-- NACHOS-->
+                  <div class="tab-pane fade" id="nachos" role="tabpanel" aria-labelledby="nachos-tab">
+                     <div class="row">
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/chicken-nachos.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Roasted Chicken Nachos</h2>
+                                       <p class="card-text pb-3">Chips served with roasted chicken, black beans, cheddar cheese dip, pico de gallo and one choice of salsa.</p>
+                                       <p class="pb-3">130.00</p>
+                                       <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/veggie-nachos.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center ">
+                                       <h2 class="card-title font-weight-bold pb-3">Vegetarian Nachos</h2>
+                                       <p class="card-text pb-3">Chips served with vegetarian mix, black beans, cheddar cheese dip, pico de gallo and one choice of salsa.</p>
+                                       <p class="pb-3">130.00</p>
+                                       <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card-deck m-3">
+                           <div class="card my-3 shadow bg-white">
+                              <div class="row p-3">
+                                 <div class="col-md-6">
+                                    <img src="../img/menu-img/beef-nachos.jpg" class="card-img" alt="...">
+                                 </div>
+                                 <div class="col-md-6 my-auto">
+                                    <div class="card-body text-center">
+                                       <h2 class="card-title font-weight-bold pb-3">Beef Nachos</h2>
+                                       <p class="card-text pb-3">Chips served with pulled beef, black beans, cheddar cheese dip, pico de gallo and one choice of salsa.</p>
+                                       <p class="pb-3">145.00</p>
+                                        <p class="btn mb-3 text-body order-line">
+                              <span class="button-hover fw-700"> Order Now! </span></p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--row-->
+                  </div>
+                  <!--tab-pane-->
+                  <!--end NACHOS-->
+                  <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
+                     <div class="row">
+                        <div class="card-deck m-3">
+                           <div class="col-3">
+                              <div class="card text-center my-3 shadow p-3 mb-5 bg-white rounded">
+                                 <img class="card-img-top" src="../img/menu-img/coca-cola.jpg" alt="Card image cap">
+                                 <div class="card-body">
+                                    <h5 class="card-title-drinks">Coca Cola</h5>
+                                    <p>34.00</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-3">
+                              <div class="card text-center my-3 shadow p-3 mb-5 bg-white rounded">
+                                 <img class="card-img-top" src="../img/menu-img/sprite.jpg" alt="Card image cap">
+                                 <div class="card-body">
+                                    <h5 class="card-title-drinks">Sprite</h5>
+                                    <p>34.00</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-3">
+                              <div class="card text-center my-3 shadow p-3 mb-5 bg-white rounded">
+                                 <img class="card-img-top" src="../img/menu-img/coca-cola-us.jpg" alt="Card image cap">
+                                 <div class="card-body">
+                                    <h5 class="card-title-drinks">Coca Cola US</h5>
+                                    <p>34.00</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-3">
+                              <div class="card text-center my-3 shadow p-3 mb-5 bg-white rounded">
+                                 <img class="card-img-top" src="../img/menu-img/fanta.jpg" alt="Card image cap">
+                                 <div class="card-body">
+                                    <h5 class="card-title-drinks">Fanta Appelsin</h5>
+                                    <p>34.00</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-3">
+                              <div class="card text-center my-3 shadow p-3 mb-5 bg-white rounded">
+                                 <img class="card-img-top" src="../img/menu-img/naturell.jpg" alt="Card image cap">
+                                 <div class="card-body">
+                                    <h5 class="card-title-drinks">Naturell</h5>
+                                    <p>34.00</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-3">
+                              <div class="card text-center my-3 shadow p-3 mb-5 bg-white rounded">
+                                 <img class="card-img-top" src="../img/menu-img/beerito.jpg" alt="Card image cap">
+                                 <div class="card-body">
+                                    <h5 class="card-title-drinks">Beerito</h5>
+                                    <p>34.00</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Body -->
+      <!-- Footer Section -->
+      <footer>
+         <div class="container footer-padd p-4 ">
+            <div class="row  ">
+               <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-auto ">
+                  <h5 class="text-uppercase font-weight-bold mb-4">El Burro</h5>
+                  <p>Why be sad in a world that has tacos? Come sit with us! Because there is no place like El Burro</p>
+                  <h5 class="text-uppercase font-weight-bold">Contact</h5>
+                  <p>
+                     <i class="fas fa-envelope mr-1"></i> post@elburro.no
+                  </p>
+                  <p>
+                     <i class="fas fa-phone mr-1"></i> 949 75 726
+                  </p>
+                  <div class="social-media">
+                    <ul>
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+               </div>
+               <!-- Grid column -->
+               <!-- Grid column -->
+               <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 ">
+                  <h5 class="font-weight-bold"> Subscribe to Our Newsletter</h5>
+                  <p> Get the regular updates from El Burro and hear the latest news from our team regarding the promos, services, menus and other general information </p>
+                  <p> Check out our newsletter archive here </p>
+                   <button class="btn-md btn-search subs-padd" type="button">Subscribe</button>
+               </div>
+               <!-- Grid column -->
+               <!-- Grid column -->
+               <div class="col-md-6 col-lg-6 col-xl-6 mx-auto ">
+                  <div class="map-responsive">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2000.2148068866748!2d10.7508743!3d59.9119823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e8a076d4dcf%3A0x342f2ca6da0e19e9!2sByporten%20Shopping!5e0!3m2!1sen!2sph!4v1595990245642!5m2!1sen!2sph" width="600" height="450"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  </div>
+               </div>
+               <!-- Grid column -->
+            </div>
+            <!-- Row -->
+         </div>
+         <!-- Copyright -->
+         <div class="footer-copyright text-white text-center">© 2020 All Rights Reserved El Burro
+         </div>
+      </footer>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="/back-to-top.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   </body>
+</html>
